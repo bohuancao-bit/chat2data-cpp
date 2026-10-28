@@ -1,0 +1,29 @@
+# Build outputs and generated Protobuf code
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+proto/protoCode/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+# Local configuration and runtime data
+.env
+.env.*
+!.env.example
+*.conf
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+logs/
+uploads/
+.DS_Store
+.vscode/
+.idea/

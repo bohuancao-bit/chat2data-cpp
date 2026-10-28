@@ -1,0 +1,13 @@
+# Copy to notify.conf and fill in your local settings.
+--listen_port=8002
+--service_name=NotifyService
+--service_addr=127.0.0.1:8002
+--etcd_addr=http://127.0.0.1:2379
+--mail_username=demo@example.com
+--mail_password=CHANGE_ME
+--mail_url=smtps://smtp.example.com:465
+--mail_from=demo@example.com
+--log_async=false
+--log_level=2
+--log_format=[%H:%M:%S][%-7l]: %v
+--log_path=stdout

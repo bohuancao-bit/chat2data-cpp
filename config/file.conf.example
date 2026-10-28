@@ -1,0 +1,26 @@
+# Copy to file.conf and fill in your local settings.
+--listen_port=8004
+--service_name=FileService
+--service_addr=127.0.0.1:8004
+--ai_service=AIService
+--excel_service=ExcelParserService
+--db_service=DatabaseService
+--etcd_addr=http://127.0.0.1:2379
+--mysql_host=127.0.0.1
+--mysql_user=chat2data
+--mysql_passwd=CHANGE_ME
+--mysql_db=chat2Data
+--mysql_port=3306
+--mysql_charset=utf8mb4
+--redis_host=127.0.0.1
+--redis_port=6379
+--redis_passwd=
+--redis_db=0
+--redis_pool_size=16
+--fdfs_trackers=127.0.0.1:22122
+--fdfs_connect_timeout=30
+--fdfs_network_timeout=30
+--log_async=false
+--log_level=2
+--log_format=[%H:%M:%S][%-7l]: %v
+--log_path=stdout
